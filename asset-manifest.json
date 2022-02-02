@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webportfolio2022/static/css/main.37109022.css",
-    "main.js": "/webportfolio2022/static/js/main.797a98b4.js",
+    "main.js": "/webportfolio2022/static/js/main.ff9718b7.js",
     "static/js/787.0c33adce.chunk.js": "/webportfolio2022/static/js/787.0c33adce.chunk.js",
     "static/media/magazine2.jpg": "/webportfolio2022/static/media/magazine2.6c665e23b27c4670ca6e.jpg",
     "static/media/kermit.PNG": "/webportfolio2022/static/media/kermit.20041bb6e0397fe762bb.PNG",
@@ -53,11 +53,11 @@
     "static/media/tshirt5.jpg": "/webportfolio2022/static/media/tshirt5.f931a8de24a9a48e20b8.jpg",
     "index.html": "/webportfolio2022/index.html",
     "main.37109022.css.map": "/webportfolio2022/static/css/main.37109022.css.map",
-    "main.797a98b4.js.map": "/webportfolio2022/static/js/main.797a98b4.js.map",
+    "main.ff9718b7.js.map": "/webportfolio2022/static/js/main.ff9718b7.js.map",
     "787.0c33adce.chunk.js.map": "/webportfolio2022/static/js/787.0c33adce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37109022.css",
-    "static/js/main.797a98b4.js"
+    "static/js/main.ff9718b7.js"
   ]
 }
