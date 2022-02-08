@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webportfolio2022/static/css/main.37109022.css",
-    "main.js": "/webportfolio2022/static/js/main.3a193ed8.js",
+    "main.js": "/webportfolio2022/static/js/main.5f0e728d.js",
     "static/js/787.0c33adce.chunk.js": "/webportfolio2022/static/js/787.0c33adce.chunk.js",
     "static/media/magazine2.jpg": "/webportfolio2022/static/media/magazine2.728c9bb2f7382fdda66d.jpg",
     "static/media/kermit.PNG": "/webportfolio2022/static/media/kermit.20041bb6e0397fe762bb.PNG",
@@ -19,6 +19,7 @@
     "static/media/dinosaur.jpg": "/webportfolio2022/static/media/dinosaur.087ede5d0ac685c5e59a.jpg",
     "static/media/bettybadass.jpg": "/webportfolio2022/static/media/bettybadass.247b350c1dc0f5b7afec.jpg",
     "static/media/badge5.png": "/webportfolio2022/static/media/badge5.9ce4a443c6fc9256a8d8.png",
+    "static/media/tk.jpg": "/webportfolio2022/static/media/tk.e8fadae506a7bba762fc.jpg",
     "static/media/icecream.jpg": "/webportfolio2022/static/media/icecream.d2abb6aeafddef7eb9a2.jpg",
     "static/media/love.jpg": "/webportfolio2022/static/media/love.9c9a9ce0706b2e605a19.jpg",
     "static/media/Artboard1.jpg": "/webportfolio2022/static/media/Artboard1.adc33947d64f5346a621.jpg",
@@ -55,11 +56,11 @@
     "static/media/tshirt5.jpg": "/webportfolio2022/static/media/tshirt5.f931a8de24a9a48e20b8.jpg",
     "index.html": "/webportfolio2022/index.html",
     "main.37109022.css.map": "/webportfolio2022/static/css/main.37109022.css.map",
-    "main.3a193ed8.js.map": "/webportfolio2022/static/js/main.3a193ed8.js.map",
+    "main.5f0e728d.js.map": "/webportfolio2022/static/js/main.5f0e728d.js.map",
     "787.0c33adce.chunk.js.map": "/webportfolio2022/static/js/787.0c33adce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37109022.css",
-    "static/js/main.3a193ed8.js"
+    "static/js/main.5f0e728d.js"
   ]
 }
