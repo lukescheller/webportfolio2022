@@ -7,6 +7,8 @@ import halloween from "../images/halloween.jpg";
 import dinosaur from "../images/dinosaur.jpg";
 import snake from "../images/snake.jpg";
 import kermit from "../images/kermit.jpg";
+import love from "../images/love.jpg";
+import icecream from "../images/icecream.jpg";
 
 const PhotoshopComposites = () => {
   return (
@@ -43,6 +45,14 @@ const PhotoshopComposites = () => {
       </h1>
 
       <Card style={{ border: "none" }}>
+        <Card.Img variant="top" alt={{}} src={love} />
+      </Card>
+
+      <Card style={{ border: "none", marginBottom: "100px" }}>
+        <Card.Img variant="top" alt={{}} src={icecream} />
+      </Card>
+
+      <Card style={{ border: "none" }}>
         <Card.Img variant="top" alt={{}} src={bettybadass} />
       </Card>
 
@@ -62,7 +72,7 @@ const PhotoshopComposites = () => {
         <Card.Img variant="top" alt={{}} src={snake} />
       </Card>
 
-      <Card style={{ border: "none", marginBottom: "100px" }}>
+      <Card style={{ border: "none" }}>
         <Card.Img variant="top" alt={{}} src={kermit} />
       </Card>
     </Container>

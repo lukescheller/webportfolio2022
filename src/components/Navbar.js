@@ -13,7 +13,7 @@ const CustomNavBar = () => {
         style={{ padding: "15px", marginBottom: "25px" }}
       >
         <Navbar.Brand>
-          <Link to="/">
+          <Link to="/webportfolio2022">
             <img src={Logo} alt="" width="75px" />
           </Link>
         </Navbar.Brand>
@@ -23,7 +23,8 @@ const CustomNavBar = () => {
           <div
             style={{
               display: "flex",
-              justifyContent: "right",
+              justifyContent: "Center",
+              alignItems: "center",
               flexWrap: "wrap",
             }}
           >

@@ -165,7 +165,7 @@ const IntroBig = () => {
             stack web developer/software engineer at a skateboarding company
             such as Thrasher, Zumiez, or CCS! <br />
             <br />
-            Thank for taking the time to read my bio!
+            Thanks for taking the time to read my bio!
             <br />
             Contact: lukescheller1991@outlook.com | 651-207-7638
           </p>

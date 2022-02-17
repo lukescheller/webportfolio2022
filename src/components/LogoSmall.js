@@ -4,6 +4,7 @@ import elliott from "../images/elliott.jpg";
 import TCM from "../images/twincitymovers.jpg";
 import banner from "../images/Artboard2.jpg";
 import ig from "../images/instagram_ad.png";
+import tk from "../images/tk.jpg";
 
 const LogoSmall = () => {
   return (
@@ -51,8 +52,12 @@ const LogoSmall = () => {
         <Card.Img variant="top" alt={{}} src={TCM} />
       </Card>
 
-      <Card style={{ border: "none", marginBottom: "100px" }}>
+      <Card style={{ border: "none" }}>
         <Card.Img variant="top" alt={{}} src={ig} />
+      </Card>
+
+      <Card style={{ border: "none", marginBottom: "100px" }}>
+        <Card.Img variant="top" alt={{}} src={tk} />
       </Card>
     </Container>
   );

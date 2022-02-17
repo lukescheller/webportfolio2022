@@ -156,7 +156,11 @@ const Intro = () => {
             challenge and process of writing and learning to write efficient
             code! My long term professional goal is to become a senior full
             stack web developer/software engineer at a skateboarding company
-            such as Thrasher, Zumiez, or CCS!
+            such as Thrasher, Zumiez, or CCS! <br />
+            <br />
+            Thanks for taking the time to read my bio!
+            <br />
+            Contact: lukescheller1991@outlook.com | 651-207-7638
           </p>
         </div>
       </Container>

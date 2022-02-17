@@ -4,6 +4,8 @@ const BadgeCard = (props) => {
   const [badgeColor, setBadgeColor] = useState(false);
   const [inputValue, setInputValue] = useState("");
   const [inputControl, setInputControl] = useState(false);
+  const [testResult, setTestResult] = useState("");
+  const [testResultColor, setTestResultColor] = useState(null);
 
   const formInputHandler = (event) => {
     setInputValue(event.target.value);
@@ -12,10 +14,14 @@ const BadgeCard = (props) => {
   const onSubmitHandler = (event) => {
     event.preventDefault();
     if (inputValue.toLowerCase() === props.answer) {
+      setTestResult("correct");
+      setTestResultColor(true);
       setBadgeColor(true);
       setInputValue("");
       setInputControl(true);
     } else {
+      setTestResult("False");
+      setTestResultColor(false);
       setBadgeColor(false);
       setInputValue("");
     }
@@ -36,15 +42,39 @@ const BadgeCard = (props) => {
         height={"250px"}
         style={!badgeColor ? { filter: "grayscale(100%)" } : {}}
       />
+      <div
+        style={
+          testResultColor
+            ? { backgroundColor: "green", color: "white", borderRadius: "10px" }
+            : { backgroundColor: "red", color: "white", borderRadius: "10px" }
+        }
+      >
+        {testResult}
+      </div>
       <form onSubmit={onSubmitHandler}>
         <div
-          style={{
-            height: "100px",
-            overflow: "scroll",
-          }}
+          style={
+            {
+              // border: "1px solid black",
+            }
+          }
         >
-          <h4>{props.question}</h4>
+          <div style={{}}>
+            <p
+              style={{
+                // HOW TO CENTER TEXT WITHIN A DIV...............AND IT'LL ADJUST TO THE SIZE OF THE DIV
+                display: "flex",
+                justifyContent: "center",
+                border: "1px solid transparent",
+                margin: "auto",
+                textAlign: "justify",
+              }}
+            >
+              {props.question}
+            </p>
+          </div>
         </div>
+        <br />
         <input
           type="text"
           style={{ margin: "10px", borderRadius: "5px" }}

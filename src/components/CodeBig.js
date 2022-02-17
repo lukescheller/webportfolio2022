@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import BadgeCard from "./BadgeCard";
 
@@ -34,7 +34,7 @@ const CodeBig = (props) => {
             src="https://img.icons8.com/ios-glyphs/60/000000/pokeball.png"
           />
         </a>
-        Pokemon - Indigo League (Quiz)
+        Pokemon - Indigo League (PokeAPI.co)
       </h1>
       {props.data.map((data) => (
         <BadgeCard

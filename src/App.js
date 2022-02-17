@@ -29,14 +29,15 @@ const data = [
   {
     id: 3,
     img: "badge3.png",
-    question: "Pokemon: Indigo League - How many episodes are featured?",
+    question:
+      "Pokemon: Indigo League - How many episodes are featured within the first season of Pokemon: Indigo League?",
     answer: "82",
   },
   {
     id: 4,
     img: "badge4.png",
     question:
-      "Pokemon: Indigo League - In which episode (#) did Dragonite first appear?",
+      "Pokemon: Indigo League - What's the # of the episode that Dragonite first appears in?",
     answer: "13",
   },
   {
@@ -55,7 +56,8 @@ const data = [
   {
     id: 7,
     img: "badge7.png",
-    question: "Pokemon: Generation 1 - How many Pokemon don't evolve?",
+    question:
+      "Pokemon: Indigo League - Generation 1 - How many Pokemon always remain at their base evolution and don't evolve?",
     answer: "11",
   },
   {
@@ -74,7 +76,7 @@ function App() {
         <NavBar />
         <Routes>
           {/*react changes - Switch is now Routes - component is now element - element={<element/>} */}
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/webportfolio2022" element={<Home />} />
           <Route exact path="/photoshopcomposites" element={<PSC />} />
           <Route exact path="/indesign" element={<InDesign />} />
           <Route exact path="/clothing" element={<Clothing />} />

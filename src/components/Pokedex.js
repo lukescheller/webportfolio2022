@@ -75,7 +75,12 @@ const Pokedex = (props) => {
         </a>
         Pokedex
       </h1>
-      <div style={{}}>
+      <div
+        style={{
+          border: "1px solid white",
+          textAlign: "left",
+        }}
+      >
         <TypeButton
           data={pokedex}
           pokeFilter={pokeFilter}
@@ -90,14 +95,15 @@ const Pokedex = (props) => {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "1fr 1fr 1fr 1fr",
+          gridTemplateColumns: "1fr 1fr 1fr",
         }}
       >
         {pokedexFilter.map((p) => (
           <div
             style={{
               margin: "5px",
-              border: "1px solid black",
+              border: "1px solid white",
+              backgroundColor: "rgb(245, 245, 245)",
               borderRadius: "10px",
             }}
           >
